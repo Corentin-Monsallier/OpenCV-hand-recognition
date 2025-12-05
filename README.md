@@ -1,33 +1,45 @@
-# OpenCV-hand-recognition
+# ✋ OpenCV Hand Recognition Projects
 
-This repository contains several creative projects using OpenCV for hand recognition. The description of each project can be found below :
+Explore creative projects using OpenCV for hand recognition, including finger counting, sign language detection, and gesture-controlled games.
 
-## 1. Hand and Finger Counter
+## 📌 Project Overview
+
+This repository contains several interactive projects that leverage OpenCV and computer vision techniques to recognize hands and fingers in real-time.  
+The projects demonstrate applications ranging from gesture-based drawing to controlling game elements using hand movements.
+
+## 🚀 What You’ll Learn
+
+- Hand and finger detection using OpenCV
+- Real-time video processing and tracking
+- Gesture recognition
+- Building interactive applications controlled by hand movements
+- Integrating computer vision with mini-games
+
+## 🛠 Tools & Libraries
+
+- Python 3.10
+- OpenCV
+- NumPy
+- Mediapipe (optional, for advanced hand tracking)
+
+## 📂 Projects
+
+### 1. Hand and Finger Counter
 
 - Detects and counts visible hands and fingers.
-- Can configure a maximum number of hands.
+- Configurable maximum number of hands.
 
-## 2. French Sign Language Alphabet Reader
-
-- Detects the letters of the French Sign Language and displays them.
-
-## 3. Rotating Button for Percentage Control
-
-- Simulates a virtual rotating dial using finger gestures to set percentages.
-- Can be used for a volume modification, virtual sliders, etc.
-
-## 4. Paint with Finger Painting
+### 2. Paint with Finger Painting
 
 - Draw on the screen using fingers as virtual brushes.
-- Can change brushes and choose an eraser.
+- Change brush types and use an eraser.
 
-## 5. Cube Jump (Trajectory-Based Control)
+### 3. French Sign Language Alphabet Reader
 
-- Control a cube's trajectory by drawing a path using hand gestures.
+- Recognizes letters of the French Sign Language alphabet.
+- Displays the detected letters in real-time.
+
+### 4. Cube Jump (Trajectory-Based Control)
+
+- Control a cube’s trajectory by drawing a path using hand gestures.
 - Includes real-time trajectory visualization.
-
-## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
-Enjoy exploring and interacting with these fun hand-recognition projects! 🎉

@@ -47,7 +47,11 @@ def main():
             ####################          VOLUME CONTROL          ####################
             length = math.hypot(x2 - x1, y2 - y1)
             vol = np.interp(length, [50, 300], [0, 100])
-            
+
+            if length <= 50:
+                cv2.circle(img, (cx, cy), 15, (0, 255, 255), cv2.FILLED)
+                cv2.line(img, (x1, y1), (x2, y2), (0, 255, 255), 3)
+
 
         ####################          DISPLAY IMAGE          ####################
         cv2.imshow("Image", img)
