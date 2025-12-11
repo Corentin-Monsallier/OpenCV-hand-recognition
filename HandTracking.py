@@ -26,7 +26,7 @@ class handDetector():
         if self.results.multi_hand_landmarks:
             for handLms in self.results.multi_hand_landmarks:
                 if draw:
-                    self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
+                    self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS, self.mpDraw.DrawingSpec(color=(0, 0, 255)), self.mpDraw.DrawingSpec(color=(0, 255, 0)))
         return img
 
 
